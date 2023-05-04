@@ -16,8 +16,9 @@ For the pins, I have used the VSPI for touch and LCD, and:
 LCD:
 - DC - G0
 - RESET - EN
-- CS - G5
-Touch:  
+- CS - G5  
+
+Touch:
 - CS - G4
 
 
