@@ -22,6 +22,10 @@ LCD:
 Touch:
 - CS - G4
 
+For the probe conection to the ADC inputs I did the following circuit:  
+![Probe conection and scale](https://github.com/AdrianoPoier/ESP32-Oscilloscope-Arduino/blob/main/demo%20images/probe%20circuit.png)  
+Where the probes positive connect to the respective CH labeled and their grounds connects all into the
+probe's grounds line. The GPIO labels indicate to connect in the respective ADC pins of the ESP32.
 
 ## TODO
 
