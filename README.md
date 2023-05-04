@@ -9,7 +9,8 @@ The user setup file for the TFT library is not provided yet.
 ## Installation
 
 The folder 'oscilloscope' is the Arduino project.  
-Install the [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI "GitHub page") libray in the Arduino IDE, it should be available in the IDE instalation page.  
+Install the [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI "GitHub page") libray in the Arduino IDE,
+it should be available in the IDE's library manager.  
 Make shure to configure the user setup file of the TFT_eSPI, the LCD used is the ST7796.  
 
 For the pins, I have used the VSPI for touch and LCD, and:  
