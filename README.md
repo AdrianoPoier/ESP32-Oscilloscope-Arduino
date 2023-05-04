@@ -17,7 +17,7 @@ LCD:
 - DC - G0
 - RESET - EN
 - CS - G5
-Touch:
+Touch:  
 - CS - G4
 
 
