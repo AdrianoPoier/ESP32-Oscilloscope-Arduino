@@ -1,5 +1,7 @@
 # ESP32-Oscilloscope-Arduino
 A basic ESP32 dual-core based oscilloscope coded in Arduino IDE
+![Screen](https://github.com/AdrianoPoier/ESP32-Oscilloscope-Arduino/blob/main/demo%20images/Screen.jpg)
+![Building example](https://github.com/AdrianoPoier/ESP32-Oscilloscope-Arduino/blob/main/demo%20images/Circuit1.jpg)
 
 ## Note
 
