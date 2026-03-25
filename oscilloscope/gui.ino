@@ -47,7 +47,7 @@ void gui_task(void *pvParameters){
       for(unsigned short x = GRAPH_STARTX; x < GRAPH_ENDX; x++){ // loop through the graph columns
         // background
         if((x - GRAPH_STARTX) % GRAPH_VDIV_SIZE){ // anything diferent than 0 is not a V div line
-          tft.drawFastVLine(x, GRAPH_STARTY, GRAPH_ENDY - GRAPH_STARTY, TFT_BLACK); // paint it black (I was listening to the Violet Orlandi cover when commented this LOL)
+          tft.drawFastVLine(x, GRAPH_STARTY, GRAPH_ENDY - GRAPH_STARTY, TFT_BLACK); // paint it black
           for(unsigned short y = GRAPH_STARTY; y < GRAPH_ENDY; y += GRAPH_HDIV_SIZE) tft.drawPixel(x, y, TFT_DARKGREY); // draw H line's pixels
         }
         else{ // when on a V line
